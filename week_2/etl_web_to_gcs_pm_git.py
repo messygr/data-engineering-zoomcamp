@@ -45,9 +45,9 @@ def write_gcs(path: Path) -> None:
 @flow()
 def etl_web_to_gcs() -> None:
     """The main ETL function"""
-    color = "yellow"
-    year = 2019
-    month = 3
+    color = "green"
+    year = 2020
+    month = 11
     dataset_file = f"{color}_tripdata_{year}-{month:02}"
     dataset_url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}.parquet"
 
